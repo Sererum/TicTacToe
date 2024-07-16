@@ -19,13 +19,16 @@ Graphical interface for playing "TicTacToe" using Qt6
     ```sh
     cd TicTacToe
     ```
-3. Соберите CMake файлы:
+3. Перейдите в директорию для промежуточных CMake файлов:
     ```sh
     mkdir build
     cd build
+    ```
+4. Соберите проект с использованием Cmake
+   ```sh
     cmake ..
     cmake --build .
-    ```
+   ```
 
 ## Использование
 Запустите приложение:
