@@ -24,7 +24,7 @@ Graphical interface for playing "TicTacToe" using Qt6
     mkdir build
     cd build
     ```
-4. Соберите проект с использованием Cmake
+4. Соберите проект с использованием CMake
    ```sh
     cmake ..
     cmake --build .
