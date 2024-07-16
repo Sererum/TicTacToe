@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/Cross.png</file>
+    <file>images/Zero.png</file>
+    <file>images/cross.png</file>
+    <file>images/zero.png</file>
+</qresource>
+</RCC>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameWindow</class>
+ <widget class="QMainWindow" name="GameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TicTacToe</string>
+  </property>
+  <widget class="QWidget" name="mainWidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_game">
+    <property name="title">
+     <string>Игра</string>
+    </property>
+    <addaction name="game_cancel"/>
+    <addaction name="game_restart"/>
+    <addaction name="game_to_menu"/>
+   </widget>
+   <addaction name="menu_game"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="styleSheet">
+    <string notr="true">font-size: 12px</string>
+   </property>
+  </widget>
+  <action name="game_restart">
+   <property name="text">
+    <string>Начать заново</string>
+   </property>
+  </action>
+  <action name="game_to_menu">
+   <property name="text">
+    <string>Выйти в меню</string>
+   </property>
+  </action>
+  <action name="game_cancel">
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
